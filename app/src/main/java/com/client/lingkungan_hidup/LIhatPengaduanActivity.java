@@ -58,7 +58,8 @@ public class LIhatPengaduanActivity extends AppCompatActivity {
                 builder.setTitle("Informasi");
                 builder.setMessage("Tanggal: " + data.tanggal + "\n\n"
                         + "Lokasi: " + data.lokasi_satwa + ". \n\n"
-                        + "Detail: " + data.alasan);
+                        + "Detail: " + data.alasan + ". \n\n"
+                        + "Status: " + data.status);
                 builder.create().show();
             }
         });
@@ -99,7 +100,8 @@ public class LIhatPengaduanActivity extends AppCompatActivity {
                                     def.getString("alasan"),
                                     def.getString("lokasi_satwa"),
                                     def.getString("telepon"),
-                                    def.getString("tanggal")));
+                                    def.getString("tanggal"),
+                                    def.getString("status")));
                             wordList.add(def.getString("alasan"));
                         }
                     }

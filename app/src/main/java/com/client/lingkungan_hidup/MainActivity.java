@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnLoginAdmin, btnLoginVisitor, btnBuatPengaduan, btnLihatLokasi;
 
 //    public static String basic_url = "http://10.0.2.2/LHserver/";
-    public static String basic_url = "https://lingkunganhiduptugas.000webhostapp.com/server/";
+//    public static String basic_url = "https://lingkunganhiduptugas.000webhostapp.com/server/";
+    public static String basic_url = "http://api.esatwa.com/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
